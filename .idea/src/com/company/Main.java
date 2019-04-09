@@ -5,6 +5,8 @@ import java.util.*;
 
 public class Main {
 
+
+
     public static void main(String[] args) {
         String text = "\n" +
                 "\n" +
@@ -13,7 +15,8 @@ public class Main {
 
 
 
-        String[] words = text.toLowerCase().split(" ");
+        S tring[] words = text.toLowerCase().split(" ");
+
         System.out.println(Arrays.toString(words));
 
         HashMap<String, Integer> hm = new HashMap<String, Integer>();
