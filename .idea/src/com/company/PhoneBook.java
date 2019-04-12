@@ -13,6 +13,8 @@ public class PhoneBook {private HashMap<String, PhoneRecord> pb;
         pb.put("Капрош", new PhoneRecord("746-11-41", "kaprosh@mail.com"));
     }
 
+
+
     public void go() {
         System.out.print("Узнать номер телефона по фамилии: ");
         System.out.println(getPhoneByName(sc.next().toLowerCase()));
