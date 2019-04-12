@@ -20,6 +20,7 @@ public class Controller {
         this.primaryStage = primaryStage;
     }
 
+
     public void onSendClicked() {
         // TODO реализовать добавление сообщений в TextArea messages
 

@@ -21,6 +21,7 @@ public class JavaFxApp extends Application {
 
     @Override
     public void start(Stage primaryStage) throws IOException {
+
         FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/scene.fxml"));
         Parent root = loader.load();
         Controller ctrl = loader.getController();
