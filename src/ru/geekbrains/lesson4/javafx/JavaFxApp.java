@@ -26,6 +26,7 @@ public class JavaFxApp extends Application {
         Controller ctrl = loader.getController();
         ctrl.setPrimaryStage(primaryStage);
 
+
         primaryStage.setTitle("Network Chat");
         primaryStage.setScene(new Scene(root));
         primaryStage.setMinHeight(450);

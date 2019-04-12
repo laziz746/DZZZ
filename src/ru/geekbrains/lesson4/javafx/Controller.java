@@ -16,12 +16,19 @@ public class Controller {
 
     private Stage primaryStage;
 
-    public void setPrimaryStage(Stage primaryStage) {
+    void setPrimaryStage(Stage primaryStage) {
         this.primaryStage = primaryStage;
     }
 
     public void onSendClicked() {
         // TODO реализовать добавление сообщений в TextArea messages
+
+        messages.appendText(messageText.getText()+"\n");
+        messageText.clear();
+        messageText.requestFocus();
+
+
+
         showModalAlert("Network chat",
                 "Message",
                 "Message text",
