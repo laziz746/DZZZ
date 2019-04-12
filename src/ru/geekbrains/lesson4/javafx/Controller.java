@@ -23,6 +23,7 @@ public class Controller {
     public void onSendClicked() {
         // TODO реализовать добавление сообщений в TextArea messages
 
+
         messages.appendText(messageText.getText()+"\n");
         messageText.clear();
         messageText.requestFocus();

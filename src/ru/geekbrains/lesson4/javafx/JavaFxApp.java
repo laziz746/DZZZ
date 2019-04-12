@@ -28,6 +28,7 @@ public class JavaFxApp extends Application {
 
 
         primaryStage.setTitle("Network Chat");
+
         primaryStage.setScene(new Scene(root));
         primaryStage.setMinHeight(450);
         primaryStage.setMinWidth(600);
